@@ -15,6 +15,7 @@
 		EC62070D21EF066300E05345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC62070C21EF066300E05345 /* main.m */; };
 		EC62071721EF066300E05345 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC62071621EF066300E05345 /* GitDemoTests.m */; };
 		EC62072221EF066300E05345 /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC62072121EF066300E05345 /* GitDemoUITests.m */; };
+		ECE5FB2621EF17D5002B4524 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE5FB2521EF17D5002B4524 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EC62071D21EF066300E05345 /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC62072121EF066300E05345 /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		EC62072321EF066300E05345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE5FB2421EF17D5002B4524 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		ECE5FB2521EF17D5002B4524 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				EC6206FD21EF065D00E05345 /* AppDelegate.h */,
 				EC6206FE21EF065D00E05345 /* AppDelegate.m */,
+				ECE5FB2421EF17D5002B4524 /* MainViewController.h */,
+				ECE5FB2521EF17D5002B4524 /* MainViewController.m */,
 				EC62070021EF065D00E05345 /* ViewController.h */,
 				EC62070121EF065D00E05345 /* ViewController.m */,
 				EC62070321EF065D00E05345 /* Main.storyboard */,
@@ -265,6 +270,7 @@
 				EC62070221EF065D00E05345 /* ViewController.m in Sources */,
 				EC62070D21EF066300E05345 /* main.m in Sources */,
 				EC6206FF21EF065D00E05345 /* AppDelegate.m in Sources */,
+				ECE5FB2621EF17D5002B4524 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
